@@ -27,3 +27,16 @@ struct Course
  double hours;
  string DR; // designation requirement
 }; 
+
+int main()
+{
+ int fish = 5;
+ 
+ int *fishPointer = &fish;
+ 
+ 
+ cout << fishPointer<<endl;
+ 
+ return 0;
+}
+}
