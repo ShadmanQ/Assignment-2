@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -36,6 +37,20 @@ int main()
  
  
  cout << fishPointer<<endl;
+ 
+ istream HCInput, SDInput;
+ 
+ vector <Course> MyVector;
+ 
+ HCInput.open("HCCourses.tsv")
+ 
+ for(HCinput>>)
+ {
+  push_back;
+  
+  
+ }
+ }
  
  return 0;
 }
