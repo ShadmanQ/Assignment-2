@@ -45,7 +45,7 @@ int main()
  HCInput.open("HunterCourses.tsv")
  
  Course temp;
- while(!eof)
+ while(!HCInput.eof())
  {
  
  HCInput >> temp;
