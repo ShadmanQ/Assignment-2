@@ -4,8 +4,6 @@
 #include <vector>
 
 using namespace std;
-
-
 struct Class
 {
  int term;
@@ -27,32 +25,32 @@ struct Course
  string catalog;
  double hours;
  string DR; // designation requirement
-}; 
+};
 
 int main()
 {
  int fish = 5;
- 
+
  int *fishPointer = &fish;
- 
- 
+
+
  cout << fishPointer<<endl;
- 
- istream HCInput, SDInput;
- 
+
+ istream HCInput;
+
  vector <Course> MyVector;
- 
+
  HCInput.open("HunterCourses.tsv")
- 
+
  Course temp;
  while(!HCInput.eof())
  {
- 
+
  HCInput >> temp.subject>>temp.catalog>>temp.hours>>temp.DR;
  push_back(temp);
-  
+
  }
- 
+
  return 0;
 }
 }
