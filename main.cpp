@@ -48,7 +48,7 @@ int main()
  while(!HCInput.eof())
  {
  
- HCInput >> temp;
+ HCInput >> temp.subject>>temp.catalog>>temp.hours>>temp.DR;
  push_back(temp);
   
  }
