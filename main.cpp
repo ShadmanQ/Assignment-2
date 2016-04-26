@@ -42,14 +42,15 @@ int main()
  
  vector <Course> MyVector;
  
- HCInput.open("HCCourses.tsv")
+ HCInput.open("HunterCourses.tsv")
  
- for(HCinput>>)
+ Course temp;
+ while(!eof)
  {
-  push_back;
+ 
+ HCInput >> temp;
+ push_back(temp);
   
-  
- }
  }
  
  return 0;
